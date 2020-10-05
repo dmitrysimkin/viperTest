@@ -9,14 +9,16 @@
 /* Begin PBXBuildFile section */
 		126651AA252BB27600B1E01D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126651A9252BB27600B1E01D /* AppDelegate.swift */; };
 		126651AC252BB27600B1E01D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126651AB252BB27600B1E01D /* SceneDelegate.swift */; };
-		126651AE252BB27600B1E01D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126651AD252BB27600B1E01D /* ViewController.swift */; };
-		126651B1252BB27600B1E01D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 126651AF252BB27600B1E01D /* Main.storyboard */; };
 		126651B4252BB27700B1E01D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 126651B2252BB27700B1E01D /* LaunchScreen.storyboard */; };
-		126651BF252BB27700B1E01D /* ViperTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126651BE252BB27700B1E01D /* ViperTestTests.swift */; };
 		126651CB252BB5CA00B1E01D /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 126651CA252BB5CA00B1E01D /* RxSwift */; };
 		126651CD252BB5CA00B1E01D /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 126651CC252BB5CA00B1E01D /* RxRelay */; };
 		126651CF252BB5CA00B1E01D /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 126651CE252BB5CA00B1E01D /* RxCocoa */; };
 		126651D1252BB5CB00B1E01D /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = 126651D0252BB5CB00B1E01D /* RxBlocking */; };
+		126651D4252BB7EB00B1E01D /* DiscountsViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126651D3252BB7EB00B1E01D /* DiscountsViewTests.swift */; };
+		126651D6252BC56800B1E01D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 126651D5252BC56800B1E01D /* Main.storyboard */; };
+		126651D8252BC9B100B1E01D /* DiscountsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126651D7252BC9B100B1E01D /* DiscountsViewController.swift */; };
+		126651DB252BD0E300B1E01D /* DiscountsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126651DA252BD0E300B1E01D /* DiscountsHelper.swift */; };
+		126651E0252BD19C00B1E01D /* DiscountsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126651DF252BD19C00B1E01D /* DiscountsPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,13 +35,15 @@
 		126651A6252BB27600B1E01D /* ViperTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		126651A9252BB27600B1E01D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		126651AB252BB27600B1E01D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		126651AD252BB27600B1E01D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		126651B0252BB27600B1E01D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		126651B3252BB27700B1E01D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		126651B5252BB27700B1E01D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		126651BA252BB27700B1E01D /* ViperTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViperTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		126651BE252BB27700B1E01D /* ViperTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperTestTests.swift; sourceTree = "<group>"; };
 		126651C0252BB27700B1E01D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		126651D3252BB7EB00B1E01D /* DiscountsViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountsViewTests.swift; sourceTree = "<group>"; };
+		126651D5252BC56800B1E01D /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		126651D7252BC9B100B1E01D /* DiscountsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountsViewController.swift; sourceTree = "<group>"; };
+		126651DA252BD0E300B1E01D /* DiscountsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountsHelper.swift; sourceTree = "<group>"; };
+		126651DF252BD19C00B1E01D /* DiscountsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountsPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,9 +91,9 @@
 			children = (
 				126651A9252BB27600B1E01D /* AppDelegate.swift */,
 				126651AB252BB27600B1E01D /* SceneDelegate.swift */,
-				126651AD252BB27600B1E01D /* ViewController.swift */,
-				126651AF252BB27600B1E01D /* Main.storyboard */,
+				126651D9252BC9E400B1E01D /* Discounts */,
 				126651B2252BB27700B1E01D /* LaunchScreen.storyboard */,
+				126651D5252BC56800B1E01D /* Main.storyboard */,
 				126651B5252BB27700B1E01D /* Info.plist */,
 			);
 			path = ViperTest;
@@ -98,10 +102,44 @@
 		126651BD252BB27700B1E01D /* ViperTestTests */ = {
 			isa = PBXGroup;
 			children = (
-				126651BE252BB27700B1E01D /* ViperTestTests.swift */,
+				126651D2252BB7BF00B1E01D /* Discounts */,
 				126651C0252BB27700B1E01D /* Info.plist */,
 			);
 			path = ViperTestTests;
+			sourceTree = "<group>";
+		};
+		126651D2252BB7BF00B1E01D /* Discounts */ = {
+			isa = PBXGroup;
+			children = (
+				126651D3252BB7EB00B1E01D /* DiscountsViewTests.swift */,
+				126651DA252BD0E300B1E01D /* DiscountsHelper.swift */,
+			);
+			path = Discounts;
+			sourceTree = "<group>";
+		};
+		126651D9252BC9E400B1E01D /* Discounts */ = {
+			isa = PBXGroup;
+			children = (
+				126651DD252BD17000B1E01D /* Presenter */,
+				126651DC252BD16800B1E01D /* View */,
+			);
+			path = Discounts;
+			sourceTree = "<group>";
+		};
+		126651DC252BD16800B1E01D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				126651D7252BC9B100B1E01D /* DiscountsViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		126651DD252BD17000B1E01D /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				126651DF252BD19C00B1E01D /* DiscountsPresenter.swift */,
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +201,7 @@
 					};
 					126651B9252BB27700B1E01D = {
 						CreatedOnToolsVersion = 11.7;
+						LastSwiftMigration = 1170;
 						TestTargetID = 126651A5252BB27600B1E01D;
 					};
 				};
@@ -194,8 +233,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				126651B1252BB27600B1E01D /* Main.storyboard in Resources */,
 				126651B4252BB27700B1E01D /* LaunchScreen.storyboard in Resources */,
+				126651D6252BC56800B1E01D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,9 +252,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				126651AE252BB27600B1E01D /* ViewController.swift in Sources */,
+				126651D8252BC9B100B1E01D /* DiscountsViewController.swift in Sources */,
 				126651AA252BB27600B1E01D /* AppDelegate.swift in Sources */,
 				126651AC252BB27600B1E01D /* SceneDelegate.swift in Sources */,
+				126651E0252BD19C00B1E01D /* DiscountsPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,7 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				126651BF252BB27700B1E01D /* ViperTestTests.swift in Sources */,
+				126651DB252BD0E300B1E01D /* DiscountsHelper.swift in Sources */,
+				126651D4252BB7EB00B1E01D /* DiscountsViewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,14 +279,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		126651AF252BB27600B1E01D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				126651B0252BB27600B1E01D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		126651B2252BB27700B1E01D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -410,6 +443,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ViperTestTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
@@ -420,6 +454,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = by.dmitrysimkin.ViperTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViperTest.app/ViperTest";
@@ -431,6 +466,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ViperTestTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
