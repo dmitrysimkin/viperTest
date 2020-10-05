@@ -22,18 +22,22 @@ protocol DiscountsOutputPresenterProtocol {
     var discountsCount: Int { get }
 }
 
-enum SwipeDirection {
-    case left, right
-}
-
-
 protocol DiscountsInputPresenterProtocol {
-    func swipe(into: SwipeDirection)
+    func showNext()
 }
 
-//typealias DiscountsPresenterProtocol = DiscountsInputPresenterProtocol & DiscountsOutputPresenterProtocol
+typealias DiscountsPresenterProtocol = DiscountsInputPresenterProtocol & DiscountsOutputPresenterProtocol
 
-final class DiscountsPresenter: DiscountsOutputPresenterProtocol {
+final class DiscountsPresenter: DiscountsPresenterProtocol {
+    func showNext() {
+        let currentIndex = try! discountSubject.value().index
+        var nextIndex: Int = currentIndex + 1
+        if nextIndex >= discountsCount {
+            nextIndex = 0
+        }
+        changeDiscount(at: nextIndex)
+    }
+    
     var discount: Observable<DiscountViewModel> { discountSubject.asObserver() }
     var discountSubject: BehaviorSubject<DiscountViewModel>
     

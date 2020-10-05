@@ -13,7 +13,7 @@ import RxCocoa
 
 
 final class DiscountsViewController: UIViewController {
-    var presenter: DiscountsOutputPresenterProtocol?
+    var presenter: DiscountsPresenterProtocol?
     
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var pageControl: UIPageControl!
@@ -26,5 +26,11 @@ final class DiscountsViewController: UIViewController {
         presenter.discount.map({ $0.image }).bind(to: self.imageView.rx.image).disposed(by: disposeBag)
         presenter.discount.map({ $0.index }).bind(to: self.pageControl.rx.currentPage).disposed(by: disposeBag)
         pageControl.numberOfPages = presenter.discountsCount
+        let gr = UITapGestureRecognizer(target: self, action: #selector(tapped))
+        view.addGestureRecognizer(gr)
+    }
+    
+    @objc func tapped() {
+        presenter?.showNext()
     }
 }
