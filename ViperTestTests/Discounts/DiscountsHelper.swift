@@ -12,25 +12,10 @@ import UIKit
 
 extension XCTestCase {
     func anyDiscounts() -> [DiscountViewModel] {
-        return [DiscountViewModel(image: anyImage(), index: 0),
-                DiscountViewModel(image: anyImage(), index: 1),
-                DiscountViewModel(image: anyImage(), index: 2),
-                DiscountViewModel(image: anyImage(), index: 3)]
+        return [DiscountViewModel(image: UIImage.anyImage(), index: 0),
+                DiscountViewModel(image: UIImage.anyImage(), index: 1),
+                DiscountViewModel(image: UIImage.anyImage(), index: 2),
+                DiscountViewModel(image: UIImage.anyImage(), index: 3)]
     }
 }
 
-extension XCTestCase {
-    func anyImage() -> UIImage {
-        let colors: [UIColor] = [.red, .yellow, .green]
-        let color = colors.randomElement()!
-        
-        let rect = CGRect(origin: .zero, size: CGSize(width: 1, height: 1))
-        UIGraphicsBeginImageContextWithOptions(rect.size, false, 0.0)
-        color.setFill()
-        UIRectFill(rect)
-        let image = UIGraphicsGetImageFromCurrentImageContext()!
-        UIGraphicsEndImageContext()
-
-        return image
-    }
-}

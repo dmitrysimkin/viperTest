@@ -19,6 +19,8 @@
 		126651D8252BC9B100B1E01D /* DiscountsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126651D7252BC9B100B1E01D /* DiscountsViewController.swift */; };
 		126651DB252BD0E300B1E01D /* DiscountsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126651DA252BD0E300B1E01D /* DiscountsHelper.swift */; };
 		126651E0252BD19C00B1E01D /* DiscountsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126651DF252BD19C00B1E01D /* DiscountsPresenter.swift */; };
+		126651E2252BD41000B1E01D /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126651E1252BD41000B1E01D /* UIImage+Extensions.swift */; };
+		126651E3252BD42100B1E01D /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126651E1252BD41000B1E01D /* UIImage+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,7 @@
 		126651D7252BC9B100B1E01D /* DiscountsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountsViewController.swift; sourceTree = "<group>"; };
 		126651DA252BD0E300B1E01D /* DiscountsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountsHelper.swift; sourceTree = "<group>"; };
 		126651DF252BD19C00B1E01D /* DiscountsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountsPresenter.swift; sourceTree = "<group>"; };
+		126651E1252BD41000B1E01D /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,7 @@
 			children = (
 				126651D2252BB7BF00B1E01D /* Discounts */,
 				126651C0252BB27700B1E01D /* Info.plist */,
+				126651E1252BD41000B1E01D /* UIImage+Extensions.swift */,
 			);
 			path = ViperTestTests;
 			sourceTree = "<group>";
@@ -254,6 +258,7 @@
 			files = (
 				126651D8252BC9B100B1E01D /* DiscountsViewController.swift in Sources */,
 				126651AA252BB27600B1E01D /* AppDelegate.swift in Sources */,
+				126651E3252BD42100B1E01D /* UIImage+Extensions.swift in Sources */,
 				126651AC252BB27600B1E01D /* SceneDelegate.swift in Sources */,
 				126651E0252BD19C00B1E01D /* DiscountsPresenter.swift in Sources */,
 			);
@@ -263,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				126651E2252BD41000B1E01D /* UIImage+Extensions.swift in Sources */,
 				126651DB252BD0E300B1E01D /* DiscountsHelper.swift in Sources */,
 				126651D4252BB7EB00B1E01D /* DiscountsViewTests.swift in Sources */,
 			);

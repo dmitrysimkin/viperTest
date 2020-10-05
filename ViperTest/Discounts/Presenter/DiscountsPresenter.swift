@@ -32,3 +32,20 @@ protocol DiscountsInputPresenterProtocol {
 }
 
 //typealias DiscountsPresenterProtocol = DiscountsInputPresenterProtocol & DiscountsOutputPresenterProtocol
+
+final class DiscountsPresenter: DiscountsOutputPresenterProtocol {
+    var discount: Observable<DiscountViewModel> { discountSubject.asObserver() }
+    var discountSubject: BehaviorSubject<DiscountViewModel>
+    
+    var discountsCount: Int { discounts.count }
+    private let discounts: [DiscountViewModel]
+    
+    func changeDiscount(at index: Int) {
+        discountSubject.onNext(discounts[index])
+    }
+    
+    init(discounts: [DiscountViewModel]) {
+        self.discounts = discounts
+        discountSubject = BehaviorSubject<DiscountViewModel>(value: discounts.first!)
+    }
+}
