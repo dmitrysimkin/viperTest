@@ -21,6 +21,7 @@
 		126651E0252BD19C00B1E01D /* DiscountsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126651DF252BD19C00B1E01D /* DiscountsPresenter.swift */; };
 		126651E2252BD41000B1E01D /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126651E1252BD41000B1E01D /* UIImage+Extensions.swift */; };
 		126651E3252BD42100B1E01D /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126651E1252BD41000B1E01D /* UIImage+Extensions.swift */; };
+		1268CF8E252BDD570062CE7D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1268CF8D252BDD570062CE7D /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		126651DA252BD0E300B1E01D /* DiscountsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountsHelper.swift; sourceTree = "<group>"; };
 		126651DF252BD19C00B1E01D /* DiscountsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountsPresenter.swift; sourceTree = "<group>"; };
 		126651E1252BD41000B1E01D /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		1268CF8D252BDD570062CE7D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		1266519D252BB27600B1E01D = {
 			isa = PBXGroup;
 			children = (
+				1268CF8D252BDD570062CE7D /* Images.xcassets */,
 				126651A8252BB27600B1E01D /* ViperTest */,
 				126651BD252BB27700B1E01D /* ViperTestTests */,
 				126651A7252BB27600B1E01D /* Products */,
@@ -237,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1268CF8E252BDD570062CE7D /* Images.xcassets in Resources */,
 				126651B4252BB27700B1E01D /* LaunchScreen.storyboard in Resources */,
 				126651D6252BC56800B1E01D /* Main.storyboard in Resources */,
 			);

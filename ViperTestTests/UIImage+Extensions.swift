@@ -11,7 +11,7 @@ import UIKit
 
 extension UIImage {
     static func anyImage() -> UIImage {
-        let colors: [UIColor] = [.red, .yellow, .green]
+        let colors: [UIColor] = [.red, .yellow, .green, .blue, .cyan, .gray, .link, .magenta, .orange, .purple]
         let color = colors.randomElement()!
         
         let rect = CGRect(origin: .zero, size: CGSize(width: 1, height: 1))

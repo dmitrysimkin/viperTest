@@ -21,10 +21,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let vc = storyboard.instantiateInitialViewController() as! DiscountsViewController
-        vc.presenter = DiscountsPresenter(discounts: [DiscountViewModel(image: UIImage.anyImage(), index: 0),
-                                                      DiscountViewModel(image: UIImage.anyImage(), index: 1),
-                                                      DiscountViewModel(image: UIImage.anyImage(), index: 2),
-                                                      DiscountViewModel(image: UIImage.anyImage(), index: 3)])
+        vc.presenter = DiscountsPresenter(discounts: [DiscountViewModel(image: UIImage(named: "specialDiscount")!, index: 0),
+                                                      DiscountViewModel(image: UIImage(named: "discount10")!, index: 1),
+                                                      DiscountViewModel(image: UIImage(named: "discount20")!, index: 2)])
         window?.rootViewController = vc
     }
 

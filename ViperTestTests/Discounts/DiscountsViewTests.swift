@@ -35,7 +35,10 @@ final class DiscountsViewTests: XCTestCase {
 }
 
 
-final class StubDiscountsPresenter: DiscountsOutputPresenterProtocol {
+final class StubDiscountsPresenter: DiscountsPresenterProtocol {
+    func showNext() {
+    }
+    
     var discount: Observable<DiscountViewModel> { discountSubject.asObserver() }
     var discountSubject: BehaviorSubject<DiscountViewModel>
     

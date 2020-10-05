@@ -15,22 +15,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dCV-Th-GPA">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dCV-Th-GPA">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="9l1-KM-d6m">
                                 <rect key="frame" x="187.5" y="805" width="39" height="37"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="pageIndicatorTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </pageControl>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="1j0-to-opZ" firstAttribute="trailing" secondItem="dCV-Th-GPA" secondAttribute="trailing" id="3dk-CR-LGD"/>
+                            <constraint firstAttribute="trailing" secondItem="dCV-Th-GPA" secondAttribute="trailing" id="3dk-CR-LGD"/>
                             <constraint firstItem="9l1-KM-d6m" firstAttribute="centerX" secondItem="1j0-to-opZ" secondAttribute="centerX" id="5T6-Nq-QAC"/>
-                            <constraint firstItem="1j0-to-opZ" firstAttribute="bottom" secondItem="dCV-Th-GPA" secondAttribute="bottom" id="JWx-Vh-vR8"/>
-                            <constraint firstItem="dCV-Th-GPA" firstAttribute="leading" secondItem="1j0-to-opZ" secondAttribute="leading" id="Th7-zv-2M3"/>
+                            <constraint firstAttribute="bottom" secondItem="dCV-Th-GPA" secondAttribute="bottom" id="JWx-Vh-vR8"/>
+                            <constraint firstItem="dCV-Th-GPA" firstAttribute="leading" secondItem="byC-02-gYY" secondAttribute="leading" id="Th7-zv-2M3"/>
                             <constraint firstItem="1j0-to-opZ" firstAttribute="bottom" secondItem="9l1-KM-d6m" secondAttribute="bottom" constant="20" id="YHC-Ew-Rh8"/>
-                            <constraint firstItem="dCV-Th-GPA" firstAttribute="top" secondItem="1j0-to-opZ" secondAttribute="top" id="i2s-GU-T5x"/>
+                            <constraint firstItem="dCV-Th-GPA" firstAttribute="top" secondItem="byC-02-gYY" secondAttribute="top" id="i2s-GU-T5x"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="1j0-to-opZ"/>
                     </view>
